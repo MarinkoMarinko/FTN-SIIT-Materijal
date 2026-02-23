@@ -1,0 +1,16 @@
+Marko newaccount
+Marko income 1200
+Marko withdrawal 200
+Andjela newaccount
+Andjela income 860
+Marko withdrawal 300
+Andjela withdrawal 100
+Mileta newaccount
+Mileta income 300
+Mileta withdrawal 100
+Marko income 1000
+Petar newaccount
+Petar income 300
+Petar income 200
+Petar income 500
+Petar income 1000

@@ -1,0 +1,10 @@
+ATR 72|4|A,B;A,B;A,B,C;A,B,C
+Airbus A319|6|A,B,C,D,E,F;A,B,C,D,E,F;A,B,C,D,E,F;A,B,C,D,E,F;A,B,C,D,E,F;A,B,C,D,E,F
+Airbus A320|6|A,B,C,D,E,F;A,B,C,D,E,F;A,B,C,D,E,F;A,B,C,D,E,F;A,B,C,D,E,F;A,B,C,D,E,F
+Airbus A321|6|A,B,C,D,E,F;A,B,C,D,E,F;A,B,C,D,E,F;A,B,C,D,E,F;A,B,C,D,E,F;A,B,C,D,E,F
+Airbus A220|5|A,B,C,D,E;A,B,C,D,E;A,B,C,D,E;A,B,C,D,E;A,B,C,D,E
+Airbus A380|6|A,B,C,D,E,F;A,B,C,D,E,F;A,B,C,D,E,F;A,B,C,D,E,F;A,B,C,D,E,F;A,B,C,D,E,F
+Boeing 737|5|A,B,C,D,E,F;A,B,C,D,E,F;A,B,C,D,E,F;A,B,C,D,E,F;A,B,C,D,E,F
+Boeing 747|6|A,B,C,D,E,F;A,B,C,D,E,F;A,B,C,D,E,F;A,B,C,D,E,F;A,B,C,D,E,F;A,B,C,D,E,F
+Boeing 787|6|A,B,C,D,E,F;A,B,C,D,E,F;A,B,C,D,E,F;A,B,C,D,E,F;A,B,C,D,E,F;A,B,C,D,E,F
+Embraer E195|4|A,B,C,D;A,B,C,D;A,B,C,D;A,B,C,D

@@ -1,0 +1,6 @@
+U projektu su korišćeni (pored korisničkih) sledeći moduli:
+
+- Datetime - za korišćenje i validaciju datuma
+- REGEX - za validaciju mejla i sedišta
+- UID - za dinamično formiranje unique id-a karata
+- Tabulate - za formatiranje ispisa letova, karata...

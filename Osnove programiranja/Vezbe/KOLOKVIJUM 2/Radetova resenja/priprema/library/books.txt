@@ -1,0 +1,11 @@
+101|Python|Mark|Lutz|2019|5
+102|Clean Code|Robert|Martin|2008|3
+103|Algorithms|Thomas|Cormen|2017|0
+104|Data Science|Joel|Grus|2020|4
+105|ML Yearning|Andrew|Ng|2018|0
+106|Databases|Abraham|Silberschatz|2016|2
+107|Django Web|Adrian|Holovaty|2021|0
+108|OS Easy|Remzi|Arpaci-Dusseau|2015|5
+109|Networking|James|Kurose|2014|3
+110|Software Eng|Ian|Sommerville|2022|9
+111|Clean Arch|Robert|Martin|2017|2
