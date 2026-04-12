@@ -1,4 +1,4 @@
-def max_element(array):
+def max_element(array):                         # O(n^2)
     if len(array) == 0:
         return "List is empty!"
     elif len(array) == 1:

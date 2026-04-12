@@ -1,4 +1,4 @@
-def fibo(n):            
+def fibo(n):                                # ~O(2n)
     if n == 1 or n == 2:
         return 1
     else:
