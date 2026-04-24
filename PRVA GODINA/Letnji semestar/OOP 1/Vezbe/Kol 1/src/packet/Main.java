@@ -98,7 +98,7 @@ public class Main {
                         while (true) {
                             System.out.print("Unesite količine artikla u magacinima u formatu [količina1 količina2 količina3]: ");
                             String countInput = sc.nextLine();
-                            String[] countData = countInput.trim().split("\\s+");
+                            String[] countData = countInput.trim().split(" ");
                             if (countData.length != 3) {
                                 System.out.println("Pogrešan unos. Pokušajte ponovo!");
                             } 
