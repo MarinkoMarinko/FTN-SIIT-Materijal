@@ -1,0 +1,134 @@
+/* BREADCRUMB */
+.breadcrumb-link {
+    color: #8b5e34;
+    text-decoration: none;
+}
+
+.breadcrumb-link:hover {
+    text-decoration: underline;
+}
+
+
+/* AUTHOR PROFILE */
+.section-title {
+    color: #2b1408;
+    font-weight: 700;
+}
+
+.author-main-img {
+    width: 100%;
+    max-width: 360px;
+    height: 360px;
+    object-fit: cover;
+    border: 8px solid #d4a373;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.12);
+}
+
+.info-label {
+    color: #6f5a45;
+    font-weight: 600;
+}
+
+.soft-card {
+    background: #fff;
+    border: 2px solid rgba(212, 163, 115, 0.45);
+}
+
+.stat-box {
+    background: #fff;
+    border: 2px solid rgba(212, 163, 115, 0.45);
+}
+
+
+/* GALLERY */
+.gallery-card {
+    border: 2px solid rgba(212, 163, 115, 0.45) !important;
+}
+
+.gallery-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+
+/* RATING */
+.rating-card {
+    border: 2px solid rgba(212, 163, 115, 0.45) !important;
+}
+
+.star-rating i {
+    font-size: 2rem;
+    color: #d4a373;
+    cursor: pointer;
+    transition: transform 0.15s ease;
+}
+
+.star-rating i:hover {
+    transform: scale(1.08);
+}
+
+
+/* BOOKS TABLE */
+.books-card {
+    border: 2px solid rgba(212, 163, 115, 0.45) !important;
+}
+
+.book-count-border {
+    border: 2px solid rgba(212, 163, 115, 0.45) !important;
+}
+
+.book-cover {
+    width: 65px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(212, 163, 115, 0.45);
+}
+
+.table > :not(caption) > * > * {
+    vertical-align: middle;
+}
+
+.table thead th {
+    color: #2b1408;
+}
+
+.book-btn {
+    background-color: #b33a1b;
+    border: none;
+    color: #fff;
+    padding: 0.6rem 1.55rem;
+    border-radius: 999px;
+    font-weight: 500;
+}
+
+.book-btn:hover {
+    background-color: #962f15;
+    color: #fff;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 991.98px) {
+    .author-info-wrap {
+        text-align: center;
+    }
+
+    .author-info-wrap .stat-box,
+    .author-info-wrap .soft-card {
+        text-align: center;
+    }
+
+    .author-header-wrap {
+        align-items: center !important;
+        text-align: center;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .author-main-img {
+        max-width: 260px;
+        height: 300px;
+    }
+}

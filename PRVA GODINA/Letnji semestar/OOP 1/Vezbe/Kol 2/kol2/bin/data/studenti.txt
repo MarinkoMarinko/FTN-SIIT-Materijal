@@ -1,0 +1,5 @@
+1;pera;peric;objektno;10;engleski;10;matematika;9
+4;ana;anic;masinsko ucenje;10;algoritmi;9;AI
+5;marko;markovic;Programiranje;10;Matematika;9;ambasador
+2;mika;mikic;matematika;9;web
+3;jovan;jovanovic;oop;10;baze;8

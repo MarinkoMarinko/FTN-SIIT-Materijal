@@ -1,0 +1,12 @@
+***** FRONTEND *****
+
+1. HTML
+2. CSS with BS5
+
+***** BACKEND *****
+
+1. JS
+
+***** DB *****
+
+1. Firebase - Realtime Database

@@ -1,0 +1,295 @@
+/* =====================
+   BREADCRUMB
+   ===================== */
+ 
+.breadcrumb-link {
+    color: #8b5e34;
+    text-decoration: none;
+}
+ 
+.breadcrumb-link:hover {
+    text-decoration: underline;
+}
+ 
+/* =====================
+   BOOK CARD
+   ===================== */
+ 
+.book-card-main {
+    background-color: #fff;
+    border: 2px solid rgba(212, 163, 115, 0.45);
+}
+ 
+.cover-wrapper {
+    border: 3px solid rgba(212, 163, 115, 0.5);
+    background-color: #e8dcc8;
+}
+ 
+.book-cover-main {
+    width: 100%;
+    max-height: 480px;
+    object-fit: cover;
+    display: block;
+}
+ 
+/* =====================
+   BADGES
+   ===================== */
+ 
+.badge-genre {
+    background-color: #1a120b;
+    color: #d4a373;
+    font-size: 0.85rem;
+    padding: 7px 14px;
+    font-weight: 500;
+}
+ 
+.badge-format {
+    background-color: #f4eee1;
+    color: #6b5744;
+    border: 1px solid #c9b99a;
+    font-size: 0.85rem;
+    padding: 7px 14px;
+    font-weight: 500;
+}
+ 
+/* =====================
+   TITLE & AUTHOR
+   ===================== */
+ 
+.book-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2rem, 5vw, 3rem);
+    color: #1a1a1a;
+    line-height: 1.15;
+}
+ 
+.author-line {
+    color: #6b5744;
+    font-size: 1rem;
+}
+ 
+.author-link {
+    color: #8b2626;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+ 
+.author-link:hover {
+    text-decoration: underline;
+    color: #6d1e1e;
+}
+ 
+/* =====================
+   STATS ROW
+   ===================== */
+ 
+.stat-box {
+    background-color: #faf6ef;
+    border: 1px solid rgba(212, 163, 115, 0.45);
+}
+ 
+.stat-icon {
+    font-size: 1.4rem;
+    color: #c58b2a;
+}
+ 
+.stat-label {
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+    color: #a1957c;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+ 
+.stat-value {
+    font-weight: 600;
+    color: #2b1408;
+    font-size: 0.95rem;
+}
+ 
+/* =====================
+   PRICE
+   ===================== */
+ 
+.price-line {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #8b2626;
+}
+ 
+.price-currency {
+    font-size: 1rem;
+    color: #a1957c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+ 
+
+/*    BOOK DETAILS    */
+
+.details-card {
+    border: 2px solid rgba(212, 163, 115, 0.45);
+    background-color: #fff;
+    margin-top: -20px;
+}
+
+.details-title {
+    font-family: 'Playfair Display', serif;
+    color: #c58b2a;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.details-row {
+    border-bottom: 1px solid rgba(212, 163, 115, 0.3);
+}
+
+.details-label {
+    width: 140px;
+    padding: 10px 0;
+    font-weight: 600;
+    color: #6b5744;
+    border: none;
+    font-size: 0.9rem;
+}
+
+.details-value {
+    padding: 10px 0;
+    color: #2b1408;
+    border: none;
+    font-size: 0.9rem;
+}
+
+.details-author-link {
+    color: #8b2626;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+}
+
+.details-author-link:hover {
+    text-decoration: underline;
+}
+
+.details-badge {
+    background-color: #f4eee1;
+    border: 1px solid #c9b99a;
+    font-family: monospace;
+    font-size: 0.85rem;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+/* REVIEWS SECTION */
+
+.reviews-wrapper {
+    background-color: #e8dcc8;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    padding: 60px 0;
+}
+
+.review-form-card {
+    border: 2px solid rgba(212, 163, 115, 0.45);
+    background-color: #fff;
+}
+
+.review-form-title {
+    font-family: 'Playfair Display', serif;
+    color: #2b1408;
+    font-size: 1.3rem;
+}
+
+.review-subtitle {
+    font-size: 0.9rem;
+}
+
+.review-divider {
+    border-color: rgba(212, 163, 115, 0.4);
+}
+
+.review-label {
+    color: #6b5744;
+}
+
+.review-input {
+    border: 1px solid rgba(212, 163, 115, 0.5);
+    background-color: #faf6ef;
+    color: #2b1408;
+}
+
+.review-input:focus {
+    border-color: rgba(197, 139, 42, 0.6);
+    background-color: #faf6ef;
+    box-shadow: none;
+}
+
+.review-char-count {
+    font-size: 0.8rem;
+    color: #a1957c;
+}
+
+.review-submit-btn {
+    background-color: #7f1d1d;
+    color: white;
+    border: none;
+    font-weight: 500;
+}
+
+.review-submit-btn:hover {
+    background-color: #991b1b;
+    color: white;
+}
+
+.review-section-title {
+    font-family: 'Playfair Display', serif;
+    color: #2b1408;
+    font-size: 1.3rem;
+}
+
+.review-count-badge {
+    background-color: #f4eee1;
+    border: 1px solid #c9b99a;
+    color: #6b5744;
+    font-size: 0.85rem;
+}
+
+.review-card {
+    border: 2px solid rgba(212, 163, 115, 0.45);
+    background-color: #fff;
+}
+
+.review-avatar {
+    background-color: #2b1408;
+    color: #d4a373;
+    width: 44px;
+    height: 44px;
+    font-size: 0.9rem;
+}
+
+.review-author-name {
+    color: #2b1408;
+}
+
+.review-date {
+    font-size: 0.8rem;
+    color: #a1957c;
+}
+
+.review-text {
+    color: #5c4a36;
+    font-size: 0.95rem;
+    line-height: 1.8;
+    border-left: 3px solid #c58b2a;
+    padding-left: 12px;
+}
+
+.review-book-tag {
+    font-size: 0.8rem;
+    color: #a1957c;
+}

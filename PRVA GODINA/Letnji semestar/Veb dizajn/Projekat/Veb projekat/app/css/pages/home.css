@@ -1,0 +1,276 @@
+/* FILTER BAR*/
+
+
+.filter-bar {
+    background-color: #e8dcc8;
+    border-top: 2px solid #c9b99a;
+    border-bottom: 2px solid #c9b99a;
+    padding: 12px 0;
+}
+
+.filter-label {
+    color: #6b5744;
+    font-size: 0.95rem;
+}
+
+.filter-btn {
+    border: 1px solid #c9b99a;
+    color: #4a3728;
+    background: transparent;
+}
+
+.filter-btn:hover {
+    border: 1px solid #6d1e1e;
+    background-color: #8b2626;
+    color: white;
+    border: none;
+}
+
+.filter-btn.active {
+    background-color: #8b2626;
+    color: white;
+    border: none;
+}
+
+/* CATALOG */
+
+.catalog-label {
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    color: #a1957c;
+}
+
+.catalog-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2.2rem, 6vw, 3.5rem);
+}
+
+.catalog-underline {
+    width: 60px;
+    height: 3px;
+    background-color: #8b2626;
+    border-radius: 2px;
+}
+
+.search-box {
+    border: 1px solid #c9b99a;
+    background-color: #f4eee1;
+    color: #4a3728;
+    padding-right: 130px !important;
+}
+
+
+.search-icon {
+    left: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #a89880;
+}
+
+.search-btn {
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #8b2626;
+    color: white;
+    font-size: 0.95rem;
+}
+
+.search-btn:hover {
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #6d1e1e;
+    color: #ffffff;
+    font-size: 0.95rem;
+}
+
+/*      BOOK GRID   */
+
+
+.book-card {
+    background-color: #faf6ef;
+    border: 1px solid #e0d5c1;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.book-card:hover {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+    transform: translateY(-3px);
+}
+
+.book-cover-wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 220px;
+    background-color: #000000;
+}
+
+.book-cover-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.book-cover-wrapper::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.3s ease;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.book-card:hover .book-cover-wrapper::after {
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+.book-cover-link {
+    display: block;
+    height: 100%;
+}
+
+.book-genre-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #8b2626;
+    color: white;
+    font-size: 0.75rem;
+    padding: 3px 10px;
+    border-radius: 4px;
+    z-index: 2;
+}
+
+.book-card-body {
+    padding: 16px;
+}
+
+.book-author {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #a1957c;
+    margin-bottom: 4px;
+}
+
+.book-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    color: #1a1a1a;
+    margin-bottom: 16px;
+    text-decoration: none;
+}
+
+.book-title:hover {
+    color: #8b2626;
+}
+
+.book-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    border-top: 1px solid #e0d5c1;
+}
+
+.book-price {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    color: #8b2626;
+    font-weight: 700;
+}
+
+.book-price span {
+    font-size: 0.8rem;
+    color: #a1957c;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.btn-details {
+    background-color: #8b2626;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 7px 18px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.btn-details:hover {
+    background-color: #6d1e1e;
+    color: white;
+}
+
+/* ABOVE FOOTER */
+
+section h2 {
+        font-family: "Playfair Display", serif;
+        font-weight: 700
+        
+    }
+    .features-section {
+      background-color: #1b0b03;
+      border-top: 1px solid #8b5a1e;
+      border-bottom: 1px solid #8b5a1e;
+      padding: 110px 0;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .feature-box {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      padding: 20px 25px;
+    }
+
+    .feature-icon {
+      font-size: 3.5rem;
+      color: #c58b2a;
+      margin-bottom: 30px;
+      display: inline-block;
+    }
+
+    .feature-title {
+      color: #ffffff;
+      font-size: 2.1rem;
+      font-weight: 700;
+      margin-bottom: 22px;
+    }
+
+    .feature-text {
+      color: #bca58b;
+      font-size: 1.2rem;
+      line-height: 2;
+      max-width: 360px;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 991.98px) {
+      .features-section {
+        padding: 70px 0;
+      }
+
+      .feature-box {
+        padding: 15px 10px;
+      }
+
+      .feature-title {
+        font-size: 1.8rem;
+      }
+
+      .feature-text {
+        font-size: 1.1rem;
+        max-width: 100%;
+      }
+    }
+
+
+
+

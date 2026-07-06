@@ -1,0 +1,98 @@
+.author-form-section {
+    padding: 60px 0 80px;
+    min-height: 60vh;
+}
+
+.form-card {
+    background-color: #fff;
+    border: 2px solid #d4a373;
+    border-radius: 18px;
+    box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,.08);
+    padding: 32px;
+}
+
+.form-title {
+    color: #2b1408;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.form-subtitle {
+    color: #6f5a45;
+    margin-bottom: 28px;
+}
+
+.custom-label {
+    color: #2b1408;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.custom-input,
+.custom-select,
+.custom-textarea {
+    border: 2px solid #d4a373;
+    border-radius: 12px;
+    padding: 12px 14px;
+    background-color: #fffdf9;
+}
+
+.custom-input:focus,
+.custom-select:focus,
+.custom-textarea:focus {
+    border-color: #be8a59;
+    box-shadow: 0 0 0 0.2rem rgba(212, 163, 115, 0.2);
+}
+
+.custom-textarea {
+    min-height: 140px;
+    resize: vertical;
+}
+
+.error-span {
+    display: block;
+    color: #dc3545;
+    font-size: 0.95rem;
+    margin-top: 6px;
+    min-height: 24px;
+}
+
+.phones-note {
+    font-size: 0.92rem;
+    color: #6f5a45;
+    margin-top: 6px;
+}
+
+.btn-save-author {
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 999px;
+    font-weight: 500;
+}
+
+.btn-save-author:hover {
+    background-color: #0b5ed7;
+    color: white;
+}
+
+.btn-cancel-author {
+    background-color: #212529;
+    color: white;
+    border: none;
+    border-radius: 999px;
+    padding: 11px 24px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.btn-cancel-author:hover {
+    background-color: #000;
+    color: white;
+}
+
+@media (max-width: 767.98px) {
+    .form-card {
+        padding: 22px;
+    }
+}

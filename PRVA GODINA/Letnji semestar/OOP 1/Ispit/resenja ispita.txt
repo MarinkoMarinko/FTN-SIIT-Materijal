@@ -1,0 +1,158 @@
+1 Napsati iterativnu i rekurzivnu funkciju za racunanje faktorijela.
+2 Napisati kod koji prolazi kroz niz po imenu "niz" i stampa redni broj (index) svakog elementa i njegov 
+sadrzaj.
+3 Napisati klasu Osoba, koja ima atribut "ime" tipa String, i metodu dodaj(String txt) koja na kraj stringa 
+ime dodaje string txt.
+4 Napisati klasu Radnik, koja sadrzi metodu dodaj(String txt) i overriduje onu iz nadklase. Metoda umesto 
+na kraj, string txt dodaje na pocetak stringa ime.
+5 U klasi radnik napisati metodu dodaj2(String txt) koja string txt dodaje i na pocetak i na kraj stringa ime 
+koristeci metode dodaj(String txt) iz klase Radnik i dodaj(String txt) iz klase Osoba.
+
+6 Stringovi se u javi ----> b) Ne mogu menjati
+
+7 Garbage collector sluzi  -----> b) I za oslobadjanje, i za refragmentaciju memorije
+
+8 Konstruktor je -----> c) Sluzi za kreiranje objekta i inicijalizaciju njegovih atributa
+
+9 Duzina niza u javi -----> b) Ne moze da se menja
+
+10 Overloading metoda je ----> a) Pojava vise metoda istog imena razlicitih parametara
+
+11 Polimorfizam je  ----> a) Situacija kada se poziva metoda nekog objekta, a ne zna se unapred kakav je 
+to konkretan objekat samo znamo njegovu baznu klasu
+
+12 Interfejs je ---> b) Spisak metoda koje klasa mora da implementira??
+
+13 Apstraktna klasa ----> b) Ne mora imati apstraktne metode
+
+14 Programski jezik Java dozvoljava ---> a) Jednostruko nasledjivanje
+
+15 Vremenski zahtevne operacije u listenerima ---> a) Ometaju rad Event Dispatcher Threada
+
+16 Citaci i pisaci sluze za  ----> b) Prenos unicode niza karaktera ne secam se ???
+
+17 Koju komponentu nasledjujemo pri kreiranju GUI aplikacije: ---> b) JFrame
+
+18 TableModel je ---> a) Interfejs koji mora da se implementira kada radimo sa tabelarnim podacima... 
+tako nesto
+
+19Facade pattern sluzi za  ----> c) Kreiranje objekata sa slozenom konfiguracijom
+
+20 Command pattern sluzi za ---> a) Izvrsavanje komandi, gde je svaka komanda predstavljena odgovarajucom klasom
+
+1 int iterativeFact(int broj) {
+    int rezultat = 1;
+    for(int i = broj; i > 1; i--) {
+        rezultat *= i;
+    }
+    return rezultat;    
+}
+
+public int recursiveFact(int broj) {
+    if(broj == 1){
+        return 1;
+    }
+    return broj * recursiveFact(broj - 1);
+}
+
+2 for(int i = 0; i < niz.length; i++) {
+    System.out.println(i);
+    System.out.println(niz[i]);
+}
+
+3 public class Osoba {
+    private String ime;
+
+    // Konstruktor
+    public Osoba(String ime) {
+        this.ime = ime;
+    }
+
+    // Metoda koja dodaje tekst na kraj imena
+    public void dodaj(String txt) {
+        ime = ime + txt;
+    }
+
+    // Getter
+    public String getIme() {
+        return ime;
+    }
+
+    // Glavni program za testiranje
+    public static void main(String[] args) {
+        Osoba osoba = new Osoba("Marko");
+        osoba.dodaj(" Petrović");
+
+        System.out.println(osoba.getIme());
+    }
+}
+
+
+4 public class Radnik extends Osoba {
+
+    public Radnik(String ime) {
+        super(ime);
+    }
+
+    @Override
+    public void dodaj(String txt) {
+        ime = txt + ime;
+    }
+}  --> Međutim, ovo će raditi samo ako je atribut ime u klasi Osoba deklarisan kao protected
+
+5 public class Radnik extends Osoba {
+
+    public Radnik(String ime) {
+        super(ime);
+    }
+
+    @Override
+    public void dodaj(String txt) {
+        ime = txt + ime;
+    }
+
+    public void dodaj2(String txt) {
+        dodaj(txt);       // dodaje na početak (Radnik)
+        super.dodaj(txt); // dodaje na kraj (Osoba)
+    }
+}
+
+
+
+Tokovi (streams) – U Javi služe za ulaz i izlaz podataka. Postoje bajtovski tokovi (InputStream, OutputStream) i karakter tokovi (Reader, Writer). Koriste se za rad sa fajlovima, mrežom itd.
+
+Gde se čuva niz? – Niz (array) se uvek čuva u heap memoriji, jer je to objekat u Javi.
+
+Garbage collector kada se poziva? – Automatski ga poziva JVM kada objekat više nema nijednu referencu. Ne može se tačno kontrolisati kada će se desiti.
+
+Overriding – Kada podklasa redefiniše metodu iz nadklase sa istim potpisom (ime, parametri). Koristi se za specifično ponašanje.
+
+Kako se spajaju stringovi? – Najčešće operatorom +, npr. "A" + "B", ili metodom concat().
+
+Apstraktne klase – šta imaju? – Mogu imati obične i apstraktne metode. Ne mogu se instancirati, služe kao osnova za druge klase.
+
+Nakon kompajliranja šta se dobija? – Dobija se .class fajl koji sadrži bytecode (izvršava ga JVM).
+
+Flow Layout – Raspoređuje komponente redom: levo → desno, pa novi red ako nema mesta.
+
+GUI ActionListener – Interfejs koji reaguje na akcije korisnika (npr. klik dugmeta). Implementira se metoda actionPerformed().
+
+Da li konstruktor može imati return? – Ne. Konstruktor nema povratni tip i ne koristi return kao metode.
+
+Nasleđivanje – Java dozvoljava samo jednostruko nasleđivanje klasa, ali više interfejsa može da se implementira.
+
+Referenca i objekti – Objekti se nalaze u heap memoriji, a reference (pokazivači na njih) u stack memoriji.
+
+Java prenos parametara – Uvek je po vrednosti. Kod objekata se kopira vrednost reference, ne sam objekat.
+
+Look and Feel – Određuje vizuelni stil GUI aplikacije (npr. Windows, Nimbus izgled).
+
+Singleton – Dizajn obrazac koji omogućava da klasa ima samo jednu instancu u celom programu.
+
+Kako se spajaju stringovi? – Operator + ili concat() (isti princip kao gore, ponovljeno pitanje).
+
+Gde se čuva niz? – U heap memoriji (ponovljeno pitanje).
+
+Garbage collector kada se aktivira? – Automatski, kada JVM proceni da treba osloboditi memoriju (ponovljeno pitanje).
+
+Da li se parametri šalju po vrednosti ili referenci ili pointeru? – U Javi se sve šalje po vrednosti, čak i reference na objekte.

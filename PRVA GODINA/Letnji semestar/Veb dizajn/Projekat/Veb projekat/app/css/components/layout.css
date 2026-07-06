@@ -1,0 +1,216 @@
+body {
+    background-color: #f4eee1;;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.custom-navbar {
+    background-color: #1a120b;
+    border-bottom: 2px solid #c58b2a;
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    color: #d4a373 !important;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: #e6ccb2 !important;
+    margin-right: 15px;
+}
+
+.nav-link:hover {
+    color: #d4a373 !important;
+}
+
+.nav-link.active {
+    background-color: #3c2a21;
+    border-radius: 5px;
+}
+
+.btn-login {
+    color: #e6ccb2;
+    border: 1px solid #3c2a21;
+    margin-right: 10px;
+    transition: opacity 0.3s ease;
+}
+
+.btn-login:hover {
+    opacity: 0.9;
+    color: #e6ccb2;
+    border: 1px solid #d4a373;
+    background-color: #3c2a21;
+    margin-right: 10px;
+}
+
+.btn-register, .btn-logout {
+    background-color: #7f1d1d; 
+    color: white;
+    border: none;
+}
+
+.btn-register:hover, .btn-logout:hover {
+    background-color: #991b1b;
+    color: white;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.user-icon-link {
+    color: #e6ccb2;
+    font-size: 1.8rem;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.user-icon-link:hover {
+    color: #d4a373;
+}
+
+/* ADMIN CHOICE MODAL */
+.admin-modal .modal-content {
+    border: 2px solid #c58b2a;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.admin-modal .modal-header {
+    background-color: #1a120b;
+    color: #e6ccb2;
+    border-bottom: 1px solid #c58b2a;
+}
+
+.admin-modal .modal-title {
+    font-family: 'Playfair Display', serif;
+    color: #d4a373;
+}
+
+.admin-modal .modal-body {
+    background-color: #f8f5f1;
+    padding: 2rem;
+}
+
+.btn-admin-choice {
+    background-color: #7f1d1d;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 18px 24px;
+    font-size: 1.05rem;
+    font-weight: 600;
+    width: 100%;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.btn-admin-choice:hover {
+    background-color: #991b1b;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.btn-admin-choice i {
+    display: block;
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+/* LOGIN AND REGISTER MODALS */
+
+.auth-modal .modal-content {
+    border: 2px solid #c58b2a;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.auth-modal .modal-header {
+    background-color: #1a120b;
+    color: #e6ccb2;
+    border-bottom: 1px solid #c58b2a;
+}
+
+.auth-modal .modal-title {
+    font-family: 'Playfair Display', serif;
+    color: #d4a373;
+}
+
+.auth-modal .modal-body {
+    background-color: #f8f5f1;
+    padding: 2rem;
+}
+
+.auth-modal .form-label {
+    font-weight: 600;
+    color: #3c2a21;
+}
+
+.auth-modal .form-control {
+    border: 2px solid #d6c3b1;
+    border-radius: 10px;
+    padding: 0.7rem 0.9rem;
+}
+
+.auth-modal .form-control:focus {
+    border-color: #c58b2a;
+    box-shadow: 0 0 0 0.2rem rgba(197, 139, 42, 0.15);
+}
+
+.auth-modal .btn-register {
+    padding: 0.75rem;
+    font-weight: 600;
+}
+
+/* FOOTER */
+
+.footer-custom {
+    background: linear-gradient(to bottom, #2b1408, #1f0f07);
+    border-top: 2px solid #7a4a17;
+    color: #bca58b;
+}
+
+.footer-gold {
+    color: #c58b2a;
+}
+
+.footer-text {
+    color: #bca58b;
+}
+
+.footer-link {
+    color: #bca58b;
+    transition: 0.3s;
+}
+
+.footer-link:hover {
+    color: white;
+}
+
+.footer-line {
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.35);
+    opacity: 1;
+}
+
+.footer-heading-line {
+    border-color: rgba(197, 139, 42, 0.35) !important;
+}
+
+.footer-copy {
+    color: #8c755a;
+    font-size: 0.95rem;
+}

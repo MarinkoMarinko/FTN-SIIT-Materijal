@@ -1,0 +1,102 @@
+/* HERO SECTION */
+
+:root {
+    --bg-main: #f4eee1;
+    --accent-color: #8b2626;
+    --text-dark: #1a1a1a;
+    --text-muted: #6c757d;
+    --border-color: #d3c7b1;
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--bg-main);
+    font-family: var(--font-body);
+    color: var(--text-dark);
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* Hero Section Layout */
+.hero-wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.hero-welcome-text {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.85rem;
+    letter-spacing: 2px;
+    color: #a1957c;
+    margin-bottom: 1.5rem;
+}
+
+.hero-main-title {
+    font-family: var(--font-heading);
+    font-size: clamp(2.5rem, 8vw, 4.5rem); /* Responsive font size */
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+}
+
+.italic-accent {
+    font-style: italic;
+    color: var(--accent-color);
+}
+
+.hero-description {
+    font-size: 1.1rem;
+    max-width: 520px;
+    margin-bottom: 2.5rem;
+    line-height: 1.6;
+}
+
+/* Custom Buttons */
+.btn-primary-custom {
+    background-color: var(--accent-color);
+    color: #ffffff;
+    border: none;
+    padding: 12px 30px;
+    font-weight: 500;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary-custom:hover {
+    background-color: #6d1e1e;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+.btn-outline-custom {
+    background-color: transparent;
+    color: var(--text-dark);
+    border: 1px solid var(--border-color);
+    padding: 12px 30px;
+    font-weight: 500;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-custom:hover {
+    background-color: #ede4d3;
+    border-color: #c4b69c;
+}
+
+/* Visual Elements */
+.hero-main-image {
+    max-width: 90%;
+    filter: drop-shadow(10px 10px 15px rgba(0,0,0,0.05));
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Simple Entrance Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+
+    
+}

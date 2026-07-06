@@ -1,0 +1,293 @@
+/* ===== ADMIN BOOKS PAGE ===== */
+.admin-section {
+    padding: 60px 0 80px;
+    min-height: 60vh;
+}
+
+.admin-title {
+    color: #2b1408;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+/* ===== ADD BUTTON ===== */
+.btn-add-book {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    border: none;
+    background-color: #2e9e44;
+    color: white;
+    font-size: 1.9rem;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0.35rem 1rem rgba(0,0,0,.18);
+    transition: 0.2s ease;
+    text-decoration: none;
+}
+
+.btn-add-book:hover {
+    background-color: #25863a;
+    transform: translateY(-2px);
+    color: white;
+}
+
+/* ===== TABLE CARD ===== */
+.admin-table-wrapper {
+    background-color: #fff;
+    border: 2px solid #d4a373;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,.08);
+}
+
+.admin-table {
+    margin-bottom: 0;
+}
+
+.admin-table thead {
+    background-color: #2b1408;
+    color: white;
+}
+
+.admin-table th,
+.admin-table td {
+    vertical-align: middle;
+    padding: 16px 14px;
+}
+
+/* ===== ACTION BUTTONS ===== */
+.admin-actions .btn {
+    min-width: 100px;
+    padding: 9px 18px;
+    border-radius: 999px;
+    font-weight: 500;
+}
+
+.btn-admin-details {
+    background-color: #212529;
+    color: white;
+    border: none;
+}
+
+.btn-admin-details:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.btn-admin-edit {
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+}
+
+.btn-admin-edit:hover {
+    background-color: #0b5ed7;
+    color: white;
+}
+
+.btn-admin-delete {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+}
+
+.btn-admin-delete:hover {
+    background-color: #bb2d3b;
+    color: white;
+}
+
+/* ===== DELETE MODAL ===== */
+.modal-header {
+    background-color: #2b1408;
+    color: white;
+}
+
+.modal-header .btn-close {
+    filter: invert(1);
+}
+
+@media (max-width: 767.98px) {
+    .admin-header {
+        gap: 1rem;
+    }
+
+    .admin-actions {
+        flex-direction: column;
+    }
+
+    .admin-actions .btn {
+        width: 100%;
+    }
+}
+
+/* ===== BOOK FORM (book_add / book_edit) ===== */
+.book-form-section {
+    padding: 60px 0 80px;
+    min-height: 60vh;
+}
+
+.form-card {
+    background-color: #fff;
+    border: 2px solid #d4a373;
+    border-radius: 18px;
+    box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,.08);
+    padding: 32px;
+}
+
+.form-title {
+    color: #2b1408;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.custom-label {
+    color: #2b1408;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.custom-input,
+.custom-select,
+.custom-textarea {
+    border: 2px solid #d4a373;
+    border-radius: 12px;
+    padding: 12px 14px;
+    background-color: #fffdf9;
+}
+
+.custom-input:focus,
+.custom-select:focus,
+.custom-textarea:focus {
+    border-color: #be8a59;
+    box-shadow: 0 0 0 0.2rem rgba(212, 163, 115, 0.2);
+}
+
+.custom-textarea {
+    min-height: 140px;
+    resize: vertical;
+}
+
+.error-label {
+    display: block;
+    color: #dc3545;
+    font-size: 0.95rem;
+    margin-top: 6px;
+    min-height: 24px;
+}
+
+.isbn-note {
+    font-size: 0.92rem;
+    color: #6f5a45;
+    margin-top: 6px;
+}
+
+.btn-save-book {
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 999px;
+    font-weight: 500;
+}
+
+.btn-save-book:hover {
+    background-color: #0b5ed7;
+    color: white;
+}
+
+/* ===== GENRE AUTOCOMPLETE ===== */
+.genre-wrapper {
+    position: relative;
+}
+
+.genre-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fffdf9;
+    border: 2px solid #d4a373;
+    border-top: none;
+    border-radius: 0 0 12px 12px;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+    display: none;
+}
+
+.genre-dropdown.open {
+    display: block;
+}
+
+.genre-option {
+    padding: 10px 14px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    color: #2b1408;
+    border-bottom: 1px solid rgba(212, 163, 115, 0.3);
+}
+
+.genre-option:last-child {
+    border-bottom: none;
+}
+
+.genre-option:hover,
+.genre-option.highlighted {
+    background-color: #f4eee1;
+}
+
+.genre-option.new-genre {
+    color: #0d6efd;
+    font-style: italic;
+}
+
+/* ===== FORMAT AUTOCOMPLETE ===== */
+.format-wrapper {
+    position: relative;
+}
+
+.format-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fffdf9;
+    border: 2px solid #d4a373;
+    border-top: none;
+    border-radius: 0 0 12px 12px;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+    display: none;
+}
+
+.format-dropdown.open {
+    display: block;
+}
+
+.format-option {
+    padding: 10px 14px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    color: #2b1408;
+    border-bottom: 1px solid rgba(212, 163, 115, 0.3);
+}
+
+.format-option:last-child {
+    border-bottom: none;
+}
+
+.format-option:hover,
+.format-option.highlighted {
+    background-color: #f4eee1;
+}
+
+
+
+@media (max-width: 767.98px) {
+    .form-card {
+        padding: 22px;
+    }
+}

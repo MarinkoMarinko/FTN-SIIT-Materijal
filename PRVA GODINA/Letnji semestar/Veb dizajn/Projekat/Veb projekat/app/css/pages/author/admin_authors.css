@@ -1,0 +1,124 @@
+.admin-section {
+    padding: 60px 0 80px;
+    min-height: 60vh;
+}
+
+.admin-title {
+    color: #2b1408;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+/* ADD BUTTON */
+.btn-add-author {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    border: none;
+    background-color: #2e9e44;
+    color: white;
+    font-size: 1.9rem;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0.35rem 1rem rgba(0,0,0,.18);
+    transition: 0.2s ease;
+    text-decoration: none;
+}
+
+.btn-add-author:hover {
+    background-color: #25863a;
+    transform: translateY(-2px);
+    color: white;
+}
+
+/* ADMIN AUTHORS TABLE */
+.admin-table-wrapper {
+    background-color: #fff;
+    border: 2px solid #d4a373;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,.08);
+}
+
+.admin-table {
+    margin-bottom: 0;
+}
+
+.admin-table thead {
+    background-color: #2b1408;
+    color: white;
+}
+
+.admin-table th,
+.admin-table td {
+    vertical-align: middle;
+    padding: 16px 14px;
+}
+
+
+/* ACTION BUTTONS */
+.admin-actions .btn {
+    min-width: 100px;
+    padding: 9px 18px;
+    border-radius: 999px;
+    font-weight: 500;
+}
+
+.btn-admin-details {
+    background-color: #212529;
+    color: white;
+    border: none;
+}
+
+.btn-admin-details:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.btn-admin-edit {
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+}
+
+.btn-admin-edit:hover {
+    background-color: #0b5ed7;
+    color: white;
+}
+
+.btn-admin-delete {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+}
+
+.btn-admin-delete:hover {
+    background-color: #bb2d3b;
+    color: white;
+}
+
+/* MODAL */
+.modal-header {
+    background-color: #2b1408;
+    color: white;
+}
+
+.modal-header .btn-close {
+    filter: invert(1);
+}
+
+@media (max-width: 767.98px) {
+    .admin-header {
+        gap: 1rem;
+    }
+
+    .admin-actions {
+        flex-direction: column;
+    }
+
+    .admin-actions .btn {
+        width: 100%;
+    }
+}

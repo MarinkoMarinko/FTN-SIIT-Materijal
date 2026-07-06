@@ -1,0 +1,85 @@
+/* AUTHOR CARDS */
+.author-card {
+    background-color: whitesmoke;
+    border: 3px solid rgba(197, 140, 42, 0.223);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.author-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.18);
+}
+
+.author-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 3px solid #c58b2a;
+}
+
+.btn-details {
+    background-color: rgb(165, 46, 29);
+    color: white;
+}
+
+.btn-details:hover {
+    background-color: rgb(185, 60, 40);
+    color: white;
+}
+
+/* SEARCH */
+.search-advanced {
+    background-color: whitesmoke;
+    border: 2px solid rgba(197, 139, 42, 0.28);
+}
+
+.search-advanced {
+    background-color: #fffaf3;
+    border: 3px solid rgba(197, 139, 42, 0.35) !important;
+    box-shadow: 0 0.75rem 1.5rem rgba(43, 20, 8, 0.08);
+}
+
+.search-advanced .form-control,
+.search-advanced .form-select,
+.search-advanced .input-group-text {
+    background-color: #ffffff !important;
+    border-color: rgba(197, 139, 42, 0.45);
+    color: #2b1408;
+}
+
+.search-advanced .input-group-text {
+    border-right: 0;
+    color: #7a4a17;
+}
+
+.search-advanced .form-control {
+    border-left: 0;
+}
+
+.search-advanced .form-control::placeholder {
+    color: #8a7461;
+}
+
+.search-advanced .form-control:focus,
+.search-advanced .form-select:focus {
+    background-color: #ffffff;
+    border-color: #c58b2a;
+    box-shadow: 0 0 0 0.2rem rgba(197, 139, 42, 0.18);
+}
+
+.search-advanced .input-group:focus-within .input-group-text {
+    border-color: #c58b2a;
+}
+
+.search-highlight {
+    background-color: rgba(255, 230, 120, 0.9);
+    color: #2b1408;
+    padding: 0 3px;
+    border-radius: 4px;
+}
+
+.section-divider {
+    border: 0;
+    border-top: 3px solid rgba(197, 139, 42, 0.35);
+    opacity: 1;
+}
