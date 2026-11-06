@@ -1,0 +1,157 @@
+{
+  "R01" : [ {
+    "sifraRelacije" : "R01",
+    "mestoPolaska" : "Novi Sad",
+    "mestoDolaska" : "Beograd",
+    "datumPolaska" : "2026-11-02",
+    "vremePolaska" : "06:00",
+    "planVremeDolaska" : "07:30",
+    "peron" : "P1",
+    "cena" : 800,
+    "brKarata" : 30
+  }, {
+    "sifraRelacije" : "R01",
+    "mestoPolaska" : "Novi Sad",
+    "mestoDolaska" : "Beograd",
+    "datumPolaska" : "2026-11-02",
+    "vremePolaska" : "09:00",
+    "planVremeDolaska" : "10:30",
+    "peron" : "P2",
+    "cena" : 800,
+    "brKarata" : 35
+  }, {
+    "sifraRelacije" : "R01",
+    "mestoPolaska" : "Novi Sad",
+    "mestoDolaska" : "Beograd",
+    "datumPolaska" : "2026-11-02",
+    "vremePolaska" : "13:00",
+    "planVremeDolaska" : "14:30",
+    "peron" : "P1",
+    "cena" : 800,
+    "brKarata" : 27
+  }, {
+    "sifraRelacije" : "R01",
+    "mestoPolaska" : "Novi Sad",
+    "mestoDolaska" : "Beograd",
+    "datumPolaska" : "2026-11-02",
+    "vremePolaska" : "17:00",
+    "planVremeDolaska" : "18:30",
+    "peron" : "P3",
+    "cena" : 800,
+    "brKarata" : 40
+  } ],
+  "R02" : [ {
+    "sifraRelacije" : "R02",
+    "mestoPolaska" : "Beograd",
+    "mestoDolaska" : "Novi Sad",
+    "datumPolaska" : "2026-11-02",
+    "vremePolaska" : "07:30",
+    "planVremeDolaska" : "09:00",
+    "peron" : "P1",
+    "cena" : 800,
+    "brKarata" : 25
+  }, {
+    "sifraRelacije" : "R02",
+    "mestoPolaska" : "Beograd",
+    "mestoDolaska" : "Novi Sad",
+    "datumPolaska" : "2026-11-02",
+    "vremePolaska" : "12:00",
+    "planVremeDolaska" : "13:30",
+    "peron" : "P2",
+    "cena" : 800,
+    "brKarata" : 32
+  }, {
+    "sifraRelacije" : "R02",
+    "mestoPolaska" : "Beograd",
+    "mestoDolaska" : "Novi Sad",
+    "datumPolaska" : "2026-11-02",
+    "vremePolaska" : "18:00",
+    "planVremeDolaska" : "19:30",
+    "peron" : "P1",
+    "cena" : 800,
+    "brKarata" : 38
+  } ],
+  "R03" : [ {
+    "sifraRelacije" : "R03",
+    "mestoPolaska" : "Novi Sad",
+    "mestoDolaska" : "Subotica",
+    "datumPolaska" : "2026-11-02",
+    "vremePolaska" : "07:00",
+    "planVremeDolaska" : "08:45",
+    "peron" : "P4",
+    "cena" : 1100,
+    "brKarata" : 22
+  }, {
+    "sifraRelacije" : "R03",
+    "mestoPolaska" : "Novi Sad",
+    "mestoDolaska" : "Subotica",
+    "datumPolaska" : "2026-11-02",
+    "vremePolaska" : "12:00",
+    "planVremeDolaska" : "13:45",
+    "peron" : "P4",
+    "cena" : 1100,
+    "brKarata" : 28
+  }, {
+    "sifraRelacije" : "R03",
+    "mestoPolaska" : "Novi Sad",
+    "mestoDolaska" : "Subotica",
+    "datumPolaska" : "2026-11-02",
+    "vremePolaska" : "18:00",
+    "planVremeDolaska" : "19:45",
+    "peron" : "P5",
+    "cena" : 1100,
+    "brKarata" : 30
+  } ],
+  "R04" : [ {
+    "sifraRelacije" : "R04",
+    "mestoPolaska" : "Subotica",
+    "mestoDolaska" : "Novi Sad",
+    "datumPolaska" : "2026-11-02",
+    "vremePolaska" : "09:00",
+    "planVremeDolaska" : "10:45",
+    "peron" : "P2",
+    "cena" : 1100,
+    "brKarata" : 20
+  }, {
+    "sifraRelacije" : "R04",
+    "mestoPolaska" : "Subotica",
+    "mestoDolaska" : "Novi Sad",
+    "datumPolaska" : "2026-11-02",
+    "vremePolaska" : "16:00",
+    "planVremeDolaska" : "17:45",
+    "peron" : "P3",
+    "cena" : 1100,
+    "brKarata" : 26
+  } ],
+  "R05" : [ {
+    "sifraRelacije" : "R05",
+    "mestoPolaska" : "Novi Sad",
+    "mestoDolaska" : "Zrenjanin",
+    "datumPolaska" : "2026-11-02",
+    "vremePolaska" : "08:00",
+    "planVremeDolaska" : "09:00",
+    "peron" : "P6",
+    "cena" : 600,
+    "brKarata" : 18
+  }, {
+    "sifraRelacije" : "R05",
+    "mestoPolaska" : "Novi Sad",
+    "mestoDolaska" : "Zrenjanin",
+    "datumPolaska" : "2026-11-02",
+    "vremePolaska" : "14:00",
+    "planVremeDolaska" : "15:00",
+    "peron" : "P6",
+    "cena" : 600,
+    "brKarata" : 24
+  }, {
+    "sifraRelacije" : "R05",
+    "mestoPolaska" : "Novi Sad",
+    "mestoDolaska" : "Zrenjanin",
+    "datumPolaska" : "2026-11-02",
+    "vremePolaska" : "19:00",
+    "planVremeDolaska" : "20:00",
+    "peron" : "P7",
+    "cena" : 600,
+    "brKarata" : 21
+  } ]
+}

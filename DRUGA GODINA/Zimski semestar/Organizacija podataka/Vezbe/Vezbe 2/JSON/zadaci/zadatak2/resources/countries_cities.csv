@@ -1,0 +1,21 @@
+CountryName,CapitalName,CapitalLatitude,CapitalLongitude,CountryCode,ContinentName
+Serbia,Belgrade,44.833333,20.500000,RS,Europe
+Croatia,Zagreb,45.800000,16.000000,HR,Europe
+France,Paris,48.866667,2.333333,FR,Europe
+Germany,Berlin,52.516667,13.400000,DE,Europe
+Italy,Rome,41.900000,12.483333,IT,Europe
+China,Beijing,39.916667,116.383333,CN,Asia
+Japan,Tokyo,35.683333,139.750000,JP,Asia
+India,New Delhi,28.600000,77.200000,IN,Asia
+South Korea,Seoul,37.550000,126.983333,KR,Asia
+Egypt,Cairo,30.050000,31.250000,EG,Africa
+Nigeria,Abuja,9.083333,7.533333,NG,Africa
+Kenya,Nairobi,-1.283333,36.816667,KE,Africa
+South Africa,Pretoria,-25.700000,28.216667,ZA,Africa
+Brazil,Brasilia,-15.783333,-47.916667,BR,South America
+Argentina,Buenos Aires,-34.583333,-58.666667,AR,South America
+Chile,Santiago,-33.450000,-70.666667,CL,South America
+Australia,Canberra,-35.266667,149.133333,AU,Australia
+New Zealand,Wellington,-41.300000,174.783333,NZ,Australia
+Cuba,Havana,23.116667,-82.350000,CU,North America
+Jamaica,Kingston,18.000000,-76.800000,JM,North America

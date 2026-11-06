@@ -1,0 +1,11 @@
+[ {
+  "sifraRelacije" : "R02",
+  "mestoPolaska" : "Beograd",
+  "mestoDolaska" : "Novi Sad",
+  "datumPolaska" : "2026-11-02",
+  "vremePolaska" : "07:30",
+  "planVremeDolaska" : "09:00",
+  "peron" : "P1",
+  "cena" : 800,
+  "brKarata" : 25
+} ]

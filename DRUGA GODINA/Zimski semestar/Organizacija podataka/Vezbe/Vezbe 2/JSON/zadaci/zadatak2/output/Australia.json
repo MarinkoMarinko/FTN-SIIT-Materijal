@@ -1,0 +1,15 @@
+[ {
+  "countryName" : "Australia",
+  "capitalName" : "Canberra",
+  "capitalLatitude" : -35.266667,
+  "capitalLongitude" : 149.133333,
+  "countryCode" : "AU",
+  "continentName" : "Australia"
+}, {
+  "countryName" : "New Zealand",
+  "capitalName" : "Wellington",
+  "capitalLatitude" : -41.3,
+  "capitalLongitude" : 174.783333,
+  "countryCode" : "NZ",
+  "continentName" : "Australia"
+} ]

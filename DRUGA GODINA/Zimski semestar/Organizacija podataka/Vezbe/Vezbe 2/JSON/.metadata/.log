@@ -1,0 +1,13 @@
+!SESSION 2026-10-27 15:40:43.729 -----------------------------------------------
+eclipse.buildId=4.39.0.20260305-0817
+java.version=21.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-10-27 15:40:47.498
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-10-27 15:41:02.155
+!MESSAGE Logback config file: /home/marinko/Desktop/FTN-SIIT-Materijal/DRUGA GODINA/Zimski semestar/Organizacija podataka/Vezbe/Vezbe 2/JSON/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.101.20251017-1242.xml

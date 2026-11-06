@@ -1,0 +1,31 @@
+[ {
+  "sifraRelacije" : "R05",
+  "mestoPolaska" : "Novi Sad",
+  "mestoDolaska" : "Zrenjanin",
+  "datumPolaska" : "2026-11-02",
+  "vremePolaska" : "08:00",
+  "planVremeDolaska" : "09:00",
+  "peron" : "P6",
+  "cena" : 600,
+  "brKarata" : 18
+}, {
+  "sifraRelacije" : "R05",
+  "mestoPolaska" : "Novi Sad",
+  "mestoDolaska" : "Zrenjanin",
+  "datumPolaska" : "2026-11-02",
+  "vremePolaska" : "14:00",
+  "planVremeDolaska" : "15:00",
+  "peron" : "P6",
+  "cena" : 600,
+  "brKarata" : 24
+}, {
+  "sifraRelacije" : "R05",
+  "mestoPolaska" : "Novi Sad",
+  "mestoDolaska" : "Zrenjanin",
+  "datumPolaska" : "2026-11-02",
+  "vremePolaska" : "19:00",
+  "planVremeDolaska" : "20:00",
+  "peron" : "P7",
+  "cena" : 600,
+  "brKarata" : 21
+} ]

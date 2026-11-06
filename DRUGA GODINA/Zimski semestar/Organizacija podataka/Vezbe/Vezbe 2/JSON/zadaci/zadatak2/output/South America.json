@@ -1,0 +1,22 @@
+[ {
+  "countryName" : "Brazil",
+  "capitalName" : "Brasilia",
+  "capitalLatitude" : -15.783333,
+  "capitalLongitude" : -47.916667,
+  "countryCode" : "BR",
+  "continentName" : "South America"
+}, {
+  "countryName" : "Argentina",
+  "capitalName" : "Buenos Aires",
+  "capitalLatitude" : -34.583333,
+  "capitalLongitude" : -58.666667,
+  "countryCode" : "AR",
+  "continentName" : "South America"
+}, {
+  "countryName" : "Chile",
+  "capitalName" : "Santiago",
+  "capitalLatitude" : -33.45,
+  "capitalLongitude" : -70.666667,
+  "countryCode" : "CL",
+  "continentName" : "South America"
+} ]

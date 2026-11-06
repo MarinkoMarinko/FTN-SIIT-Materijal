@@ -1,0 +1,27 @@
+- !!zadatak5.Iznajmljivanje
+  brojDana: 3
+  cenaZaDan: 3000
+  datumIznajmljivanja: '2026-05-03'
+  datumVracanja: '2026-05-06'
+  iznajmljivac: {ime: Marko, maticniBroj: '0101998000001', prezime: Markovic}
+  mestoIznajmljivanja: Novi Sad
+  predjenoKilometara: 180
+  sifra: I01
+- !!zadatak5.Iznajmljivanje
+  brojDana: 2
+  cenaZaDan: 3500
+  datumIznajmljivanja: '2026-05-08'
+  datumVracanja: '2026-05-10'
+  iznajmljivac: {ime: Jovan, maticniBroj: '0202999000002', prezime: Jovanovic}
+  mestoIznajmljivanja: Beograd
+  predjenoKilometara: 120
+  sifra: I02
+- !!zadatak5.Iznajmljivanje
+  brojDana: 5
+  cenaZaDan: 3000
+  datumIznajmljivanja: '2026-05-18'
+  datumVracanja: '2026-05-23'
+  iznajmljivac: {ime: Marko, maticniBroj: '0101998000001', prezime: Markovic}
+  mestoIznajmljivanja: Novi Sad
+  predjenoKilometara: 450
+  sifra: I03

@@ -1,0 +1,7 @@
+statistika:
+  ukupan_broj_porudzbina: 7
+  ukupan_prihod: 37055.0
+  prosecna_vrednost_porudzbine: 5293.571428571428
+  broj_velikih_porudzbina: 2
+  grad_sa_najvecim_prihodom: Novi Sad
+  najskuplja_porudzbina: {sifra: P003, konacna_cena: 7600.0}

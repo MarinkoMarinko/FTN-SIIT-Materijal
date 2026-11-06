@@ -1,0 +1,36 @@
+[ {
+  "countryName" : "Serbia",
+  "capitalName" : "Belgrade",
+  "capitalLatitude" : 44.833333,
+  "capitalLongitude" : 20.5,
+  "countryCode" : "RS",
+  "continentName" : "Europe"
+}, {
+  "countryName" : "Croatia",
+  "capitalName" : "Zagreb",
+  "capitalLatitude" : 45.8,
+  "capitalLongitude" : 16.0,
+  "countryCode" : "HR",
+  "continentName" : "Europe"
+}, {
+  "countryName" : "France",
+  "capitalName" : "Paris",
+  "capitalLatitude" : 48.866667,
+  "capitalLongitude" : 2.333333,
+  "countryCode" : "FR",
+  "continentName" : "Europe"
+}, {
+  "countryName" : "Germany",
+  "capitalName" : "Berlin",
+  "capitalLatitude" : 52.516667,
+  "capitalLongitude" : 13.4,
+  "countryCode" : "DE",
+  "continentName" : "Europe"
+}, {
+  "countryName" : "Italy",
+  "capitalName" : "Rome",
+  "capitalLatitude" : 41.9,
+  "capitalLongitude" : 12.483333,
+  "countryCode" : "IT",
+  "continentName" : "Europe"
+} ]

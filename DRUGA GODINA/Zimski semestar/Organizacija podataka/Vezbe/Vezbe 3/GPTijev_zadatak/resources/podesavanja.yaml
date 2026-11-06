@@ -1,0 +1,6 @@
+dostava:
+  prag_besplatne_dostave: 5000
+  cena_dostave: 350
+
+analiza:
+  prag_velike_porudzbine: 7000

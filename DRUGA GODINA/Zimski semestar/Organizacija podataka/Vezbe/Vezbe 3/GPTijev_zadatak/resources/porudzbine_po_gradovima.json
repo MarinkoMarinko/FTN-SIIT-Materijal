@@ -1,0 +1,51 @@
+{
+  "gradovi" : {
+    "Novi Sad" : {
+      "ukupanPrihod" : 14660.0,
+      "porudzbine" : [ {
+        "sifra" : "P003",
+        "kupac" : "Milica",
+        "konacnaCena" : 7600.0,
+        "velika" : true
+      }, {
+        "sifra" : "P001",
+        "kupac" : "Ana",
+        "konacnaCena" : 4310.0,
+        "velika" : false
+      }, {
+        "sifra" : "P007",
+        "kupac" : "Stefan",
+        "konacnaCena" : 2750.0,
+        "velika" : false
+      } ]
+    },
+    "Beograd" : {
+      "ukupanPrihod" : 12700.0,
+      "porudzbine" : [ {
+        "sifra" : "P005",
+        "kupac" : "Jovana",
+        "konacnaCena" : 7600.0,
+        "velika" : true
+      }, {
+        "sifra" : "P002",
+        "kupac" : "Marko",
+        "konacnaCena" : 5100.0,
+        "velika" : false
+      } ]
+    },
+    "Nis" : {
+      "ukupanPrihod" : 9695.0,
+      "porudzbine" : [ {
+        "sifra" : "P006",
+        "kupac" : "Luka",
+        "konacnaCena" : 5305.0,
+        "velika" : false
+      }, {
+        "sifra" : "P004",
+        "kupac" : "Petar",
+        "konacnaCena" : 4390.0,
+        "velika" : false
+      } ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+[ {
+  "countryName" : "Egypt",
+  "capitalName" : "Cairo",
+  "capitalLatitude" : 30.05,
+  "capitalLongitude" : 31.25,
+  "countryCode" : "EG",
+  "continentName" : "Africa"
+}, {
+  "countryName" : "Nigeria",
+  "capitalName" : "Abuja",
+  "capitalLatitude" : 9.083333,
+  "capitalLongitude" : 7.533333,
+  "countryCode" : "NG",
+  "continentName" : "Africa"
+}, {
+  "countryName" : "Kenya",
+  "capitalName" : "Nairobi",
+  "capitalLatitude" : -1.283333,
+  "capitalLongitude" : 36.816667,
+  "countryCode" : "KE",
+  "continentName" : "Africa"
+}, {
+  "countryName" : "South Africa",
+  "capitalName" : "Pretoria",
+  "capitalLatitude" : -25.7,
+  "capitalLongitude" : 28.216667,
+  "countryCode" : "ZA",
+  "continentName" : "Africa"
+} ]

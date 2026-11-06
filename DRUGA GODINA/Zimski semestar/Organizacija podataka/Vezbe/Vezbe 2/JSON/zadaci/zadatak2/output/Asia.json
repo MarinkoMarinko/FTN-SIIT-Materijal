@@ -1,0 +1,29 @@
+[ {
+  "countryName" : "China",
+  "capitalName" : "Beijing",
+  "capitalLatitude" : 39.916667,
+  "capitalLongitude" : 116.383333,
+  "countryCode" : "CN",
+  "continentName" : "Asia"
+}, {
+  "countryName" : "Japan",
+  "capitalName" : "Tokyo",
+  "capitalLatitude" : 35.683333,
+  "capitalLongitude" : 139.75,
+  "countryCode" : "JP",
+  "continentName" : "Asia"
+}, {
+  "countryName" : "India",
+  "capitalName" : "New Delhi",
+  "capitalLatitude" : 28.6,
+  "capitalLongitude" : 77.2,
+  "countryCode" : "IN",
+  "continentName" : "Asia"
+}, {
+  "countryName" : "South Korea",
+  "capitalName" : "Seoul",
+  "capitalLatitude" : 37.55,
+  "capitalLongitude" : 126.983333,
+  "countryCode" : "KR",
+  "continentName" : "Asia"
+} ]

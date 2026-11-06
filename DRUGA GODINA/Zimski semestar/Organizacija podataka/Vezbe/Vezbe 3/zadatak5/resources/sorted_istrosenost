@@ -1,0 +1,105 @@
+[ {
+  "Sifra_iznajmljivanja" : "I06",
+  "Mesto_iznajmljivanja" : "Novi Sad",
+  "Datum_iznajmljivanja" : "2026-06-20",
+  "Datum_vracanja" : "2026-06-27",
+  "Predjeno_kilometara" : 650,
+  "Cena_za_dan" : 3000,
+  "Broj_dana" : 7,
+  "Iznajmljivac" : {
+    "ime" : "Petar",
+    "prezime" : "Nikolic",
+    "maticni_broj" : "0404997000004"
+  }
+}, {
+  "Sifra_iznajmljivanja" : "I03",
+  "Mesto_iznajmljivanja" : "Novi Sad",
+  "Datum_iznajmljivanja" : "2026-05-18",
+  "Datum_vracanja" : "2026-05-23",
+  "Predjeno_kilometara" : 450,
+  "Cena_za_dan" : 3000,
+  "Broj_dana" : 5,
+  "Iznajmljivac" : {
+    "ime" : "Marko",
+    "prezime" : "Markovic",
+    "maticni_broj" : "0101998000001"
+  }
+}, {
+  "Sifra_iznajmljivanja" : "I04",
+  "Mesto_iznajmljivanja" : "Subotica",
+  "Datum_iznajmljivanja" : "2026-06-02",
+  "Datum_vracanja" : "2026-06-06",
+  "Predjeno_kilometara" : 320,
+  "Cena_za_dan" : 4000,
+  "Broj_dana" : 4,
+  "Iznajmljivac" : {
+    "ime" : "Ana",
+    "prezime" : "Petrovic",
+    "maticni_broj" : "0303000000003"
+  }
+}, {
+  "Sifra_iznajmljivanja" : "I07",
+  "Mesto_iznajmljivanja" : "Beograd",
+  "Datum_iznajmljivanja" : "2026-07-03",
+  "Datum_vracanja" : "2026-07-06",
+  "Predjeno_kilometara" : 270,
+  "Cena_za_dan" : 3500,
+  "Broj_dana" : 3,
+  "Iznajmljivac" : {
+    "ime" : "Ana",
+    "prezime" : "Petrovic",
+    "maticni_broj" : "0303000000003"
+  }
+}, {
+  "Sifra_iznajmljivanja" : "I08",
+  "Mesto_iznajmljivanja" : "Subotica",
+  "Datum_iznajmljivanja" : "2026-07-12",
+  "Datum_vracanja" : "2026-07-15",
+  "Predjeno_kilometara" : 210,
+  "Cena_za_dan" : 4000,
+  "Broj_dana" : 3,
+  "Iznajmljivac" : {
+    "ime" : "Marko",
+    "prezime" : "Markovic",
+    "maticni_broj" : "0101998000001"
+  }
+}, {
+  "Sifra_iznajmljivanja" : "I01",
+  "Mesto_iznajmljivanja" : "Novi Sad",
+  "Datum_iznajmljivanja" : "2026-05-03",
+  "Datum_vracanja" : "2026-05-06",
+  "Predjeno_kilometara" : 180,
+  "Cena_za_dan" : 3000,
+  "Broj_dana" : 3,
+  "Iznajmljivac" : {
+    "ime" : "Marko",
+    "prezime" : "Markovic",
+    "maticni_broj" : "0101998000001"
+  }
+}, {
+  "Sifra_iznajmljivanja" : "I02",
+  "Mesto_iznajmljivanja" : "Beograd",
+  "Datum_iznajmljivanja" : "2026-05-08",
+  "Datum_vracanja" : "2026-05-10",
+  "Predjeno_kilometara" : 120,
+  "Cena_za_dan" : 3500,
+  "Broj_dana" : 2,
+  "Iznajmljivac" : {
+    "ime" : "Jovan",
+    "prezime" : "Jovanovic",
+    "maticni_broj" : "0202999000002"
+  }
+}, {
+  "Sifra_iznajmljivanja" : "I05",
+  "Mesto_iznajmljivanja" : "Beograd",
+  "Datum_iznajmljivanja" : "2026-06-10",
+  "Datum_vracanja" : "2026-06-11",
+  "Predjeno_kilometara" : 80,
+  "Cena_za_dan" : 3500,
+  "Broj_dana" : 1,
+  "Iznajmljivac" : {
+    "ime" : "Jovan",
+    "prezime" : "Jovanovic",
+    "maticni_broj" : "0202999000002"
+  }
+} ]

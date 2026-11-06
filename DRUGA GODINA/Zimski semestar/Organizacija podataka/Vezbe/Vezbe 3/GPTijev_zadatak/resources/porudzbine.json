@@ -1,0 +1,125 @@
+[
+  {
+    "sifra": "P001",
+    "kupac": {
+      "ime": "Ana",
+      "grad": "Novi Sad"
+    },
+    "stavke": [
+      {
+        "naziv": "Roman",
+        "kategorija": "Knjige",
+        "kolicina": 2,
+        "cena": 1800
+      },
+      {
+        "naziv": "Sveska",
+        "kategorija": "Pribor",
+        "kolicina": 3,
+        "cena": 300
+      }
+    ]
+  },
+  {
+    "sifra": "P002",
+    "kupac": {
+      "ime": "Marko",
+      "grad": "Beograd"
+    },
+    "stavke": [
+      {
+        "naziv": "USB memorija",
+        "kategorija": "Tehnika",
+        "kolicina": 2,
+        "cena": 2500
+      }
+    ]
+  },
+  {
+    "sifra": "P003",
+    "kupac": {
+      "ime": "Milica",
+      "grad": "Novi Sad"
+    },
+    "stavke": [
+      {
+        "naziv": "Slusalice",
+        "kategorija": "Tehnika",
+        "kolicina": 1,
+        "cena": 8000
+      }
+    ]
+  },
+  {
+    "sifra": "P004",
+    "kupac": {
+      "ime": "Petar",
+      "grad": "Nis"
+    },
+    "stavke": [
+      {
+        "naziv": "Enciklopedija",
+        "kategorija": "Knjige",
+        "kolicina": 3,
+        "cena": 1200
+      },
+      {
+        "naziv": "Olovka",
+        "kategorija": "Pribor",
+        "kolicina": 2,
+        "cena": 500
+      }
+    ]
+  },
+  {
+    "sifra": "P005",
+    "kupac": {
+      "ime": "Jovana",
+      "grad": "Beograd"
+    },
+    "stavke": [
+      {
+        "naziv": "Drustvena igra",
+        "kategorija": "Igracke",
+        "kolicina": 2,
+        "cena": 3800
+      }
+    ]
+  },
+  {
+    "sifra": "P006",
+    "kupac": {
+      "ime": "Luka",
+      "grad": "Nis"
+    },
+    "stavke": [
+      {
+        "naziv": "Mis",
+        "kategorija": "Tehnika",
+        "kolicina": 1,
+        "cena": 3500
+      },
+      {
+        "naziv": "Udžbenik",
+        "kategorija": "Knjige",
+        "kolicina": 1,
+        "cena": 2200
+      }
+    ]
+  },
+  {
+    "sifra": "P007",
+    "kupac": {
+      "ime": "Stefan",
+      "grad": "Novi Sad"
+    },
+    "stavke": [
+      {
+        "naziv": "Blok za crtanje",
+        "kategorija": "Pribor",
+        "kolicina": 5,
+        "cena": 600
+      }
+    ]
+  }
+]

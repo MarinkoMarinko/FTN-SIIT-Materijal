@@ -1,0 +1,16 @@
+sifra relacije,mesto polaska,mesto dolaska,datum polaska,vreme polaska,planirano vreme dolaska,stanicni peron polaska,cena karte,broj prodatih karata
+R01,Novi Sad,Beograd,2026-11-02,06:00,07:30,P1,800,30
+R01,Novi Sad,Beograd,2026-11-02,09:00,10:30,P2,800,35
+R01,Novi Sad,Beograd,2026-11-02,13:00,14:30,P1,800,27
+R01,Novi Sad,Beograd,2026-11-02,17:00,18:30,P3,800,40
+R02,Beograd,Novi Sad,2026-11-02,07:30,09:00,P1,800,25
+R02,Beograd,Novi Sad,2026-11-02,12:00,13:30,P2,800,32
+R02,Beograd,Novi Sad,2026-11-02,18:00,19:30,P1,800,38
+R03,Novi Sad,Subotica,2026-11-02,07:00,08:45,P4,1100,22
+R03,Novi Sad,Subotica,2026-11-02,12:00,13:45,P4,1100,28
+R03,Novi Sad,Subotica,2026-11-02,18:00,19:45,P5,1100,30
+R04,Subotica,Novi Sad,2026-11-02,09:00,10:45,P2,1100,20
+R04,Subotica,Novi Sad,2026-11-02,16:00,17:45,P3,1100,26
+R05,Novi Sad,Zrenjanin,2026-11-02,08:00,09:00,P6,600,18
+R05,Novi Sad,Zrenjanin,2026-11-02,14:00,15:00,P6,600,24
+R05,Novi Sad,Zrenjanin,2026-11-02,19:00,20:00,P7,600,21

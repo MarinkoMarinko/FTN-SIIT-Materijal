@@ -1,0 +1,15 @@
+[ {
+  "countryName" : "Cuba",
+  "capitalName" : "Havana",
+  "capitalLatitude" : 23.116667,
+  "capitalLongitude" : -82.35,
+  "countryCode" : "CU",
+  "continentName" : "North America"
+}, {
+  "countryName" : "Jamaica",
+  "capitalName" : "Kingston",
+  "capitalLatitude" : 18.0,
+  "capitalLongitude" : -76.8,
+  "countryCode" : "JM",
+  "continentName" : "North America"
+} ]

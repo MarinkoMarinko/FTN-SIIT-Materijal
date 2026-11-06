@@ -1,0 +1,120 @@
+- !!zadatak3.Polazak
+    brKarata: 30
+    cena: 800
+    datumPolaska: '2026-11-02'
+    mestoDolaska: Beograd
+    mestoPolaska: Novi Sad
+    peron: P1
+    planVremeDolaska: 07:30
+    sifraRelacije: R01
+    vremePolaska: 06:00
+- !!zadatak3.Polazak
+    brKarata: 35
+    cena: 800
+    datumPolaska: '2026-11-02'
+    mestoDolaska: Beograd
+    mestoPolaska: Novi Sad
+    peron: P2
+    planVremeDolaska: '10:30'
+    sifraRelacije: R01
+    vremePolaska: 09:00
+- !!zadatak3.Polazak
+    brKarata: 27
+    cena: 800
+    datumPolaska: '2026-11-02'
+    mestoDolaska: Beograd
+    mestoPolaska: Novi Sad
+    peron: P1
+    planVremeDolaska: '14:30'
+    sifraRelacije: R01
+    vremePolaska: '13:00'
+- !!zadatak3.Polazak
+    brKarata: 40
+    cena: 800
+    datumPolaska: '2026-11-02'
+    mestoDolaska: Beograd
+    mestoPolaska: Novi Sad
+    peron: P3
+    planVremeDolaska: '18:30'
+    sifraRelacije: R01
+    vremePolaska: '17:00'
+- !!zadatak3.Polazak
+    brKarata: 25
+    cena: 800
+    datumPolaska: '2026-11-02'
+    mestoDolaska: Novi Sad
+    mestoPolaska: Beograd
+    peron: P1
+    planVremeDolaska: 09:00
+    sifraRelacije: R02
+    vremePolaska: 07:30
+- !!zadatak3.Polazak
+    brKarata: 32
+    cena: 800
+    datumPolaska: '2026-11-02'
+    mestoDolaska: Novi Sad
+    mestoPolaska: Beograd
+    peron: P2
+    planVremeDolaska: '13:30'
+    sifraRelacije: R02
+    vremePolaska: '12:00'
+- !!zadatak3.Polazak
+    brKarata: 38
+    cena: 800
+    datumPolaska: '2026-11-02'
+    mestoDolaska: Novi Sad
+    mestoPolaska: Beograd
+    peron: P1
+    planVremeDolaska: '19:30'
+    sifraRelacije: R02
+    vremePolaska: '18:00'
+- !!zadatak3.Polazak
+    brKarata: 22
+    cena: 1100
+    datumPolaska: '2026-11-02'
+    mestoDolaska: Subotica
+    mestoPolaska: Novi Sad
+    peron: P4
+    planVremeDolaska: 08:45
+    sifraRelacije: R03
+    vremePolaska: 07:00
+- !!zadatak3.Polazak
+    brKarata: 28
+    cena: 1100
+    datumPolaska: '2026-11-02'
+    mestoDolaska: Subotica
+    mestoPolaska: Novi Sad
+    peron: P4
+    planVremeDolaska: '13:45'
+    sifraRelacije: R03
+    vremePolaska: '12:00'
+- !!zadatak3.Polazak
+    brKarata: 30
+    cena: 1100
+    datumPolaska: '2026-11-02'
+    mestoDolaska: Subotica
+    mestoPolaska: Novi Sad
+    peron: P5
+    planVremeDolaska: '19:45'
+    sifraRelacije: R03
+    vremePolaska: '18:00'
+- !!zadatak3.Polazak
+    brKarata: 20
+    cena: 1100
+    datumPolaska: '2026-11-02'
+    mestoDolaska: Novi Sad
+    mestoPolaska: Subotica
+    peron: P2
+    planVremeDolaska: '10:45'
+    sifraRelacije: R04
+    vremePolaska: 09:00
+- !!zadatak3.Polazak
+    brKarata: 26
+    cena: 1100
+    datumPolaska: '2026-11-02'
+    mestoDolaska: Novi Sad
+    mestoPolaska: Subotica
+    peron: P3
+    planVremeDolaska: '17:45'
+    sifraRelacije: R04
+    vremePolaska: '16:00'

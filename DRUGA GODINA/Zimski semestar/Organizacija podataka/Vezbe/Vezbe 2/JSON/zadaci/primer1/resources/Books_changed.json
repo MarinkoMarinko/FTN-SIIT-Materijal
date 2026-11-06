@@ -1,0 +1,11 @@
+{
+  "ISBN" : "ISBN-0-13-713526-2",
+  "Price" : 100,
+  "Edition" : 3,
+  "Title" : "New Book Title",
+  "Author" : {
+    "First_Name" : "Marko",
+    "Last_Name" : "Ullman"
+  },
+  "Tags" : [ "Computer Science", "Databases" ]
+}
